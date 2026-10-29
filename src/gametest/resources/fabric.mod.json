@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "trashcan-gametest",
+	"version": "1.0.0",
+	"name": "Trash Can Game Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"codes.nasty.trashcan.test.TrashCanClientGameTest"
+		]
+	},
+	"depends": {
+		"trashcan": "*"
+	}
+}

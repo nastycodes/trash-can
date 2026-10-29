@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "trashcan",
+	"version": "${version}",
+	"name": "Trash Can",
+	"description": "Adds a trash can: a container with the same interface as a chest, plus a button that permanently deletes everything inside.",
+	"authors": [
+		"nasty.codes"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/${slug}",
+		"sources": "https://github.com/nastycodes/trash-can",
+		"issues": "https://github.com/nastycodes/trash-can/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/trashcan/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"codes.nasty.trashcan.TrashCan"
+		],
+		"client": [
+			"codes.nasty.trashcan.client.TrashCanClient"
+		],
+		"modmenu": [
+			"codes.nasty.trashcan.client.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

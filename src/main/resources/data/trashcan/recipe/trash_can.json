@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"I I",
+		"ICI",
+		"III"
+	],
+	"key": {
+		"C": "minecraft:chest",
+		"I": "minecraft:iron_ingot"
+	},
+	"result": {
+		"id": "trashcan:trash_can",
+		"count": 1
+	}
+}
